@@ -52,7 +52,7 @@
       .type('boy', '<span class="gray">')
       .type(':', '<span class="blue">')
       .type('0', '<span class="blank">')
-      .type("'wood'", '<span class="green">')
+      .type("'宝宝'", '<span class="green">')
       .wait(15)
       .del(6)
       .type("'辛保健'", '<span class="green">')
@@ -71,7 +71,7 @@
       .type('start', '<span class="gray">')
       .type(':', '<span class="blue">')
       .type('0', '<span class="blank">')
-      .type("'2017-07-10'", '<span class="green">')
+      .type("'2017-09-01'", '<span class="green">')
       .type('0', '<br>')
       .type('00', '<span class="blank">')
       .type('}', '<span class="gray">')
@@ -225,7 +225,7 @@
     }, 2000)
   }
   function count() {
-    const date = new Date('2017-07-10 00:00:00')
+    const date = new Date('2017-09-01 00:00:00')
     let current = Date()
     let seconds = (Date.parse(current) - Date.parse(date)) / 1000;
     let days = Math.floor(seconds / (3600 * 24))
